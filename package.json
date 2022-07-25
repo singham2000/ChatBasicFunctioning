@@ -1,0 +1,26 @@
+{
+  "name": "chatbasicfunctioning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singham2000/ChatBasicFunctioning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singham2000/ChatBasicFunctioning/issues"
+  },
+  "homepage": "https://github.com/singham2000/ChatBasicFunctioning#readme",
+  "dependencies": {
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
